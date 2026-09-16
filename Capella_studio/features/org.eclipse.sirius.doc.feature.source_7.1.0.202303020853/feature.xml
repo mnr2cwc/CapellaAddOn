@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.sirius.doc.feature.source" version="7.1.0.202303020853" plugin="org.eclipse.sirius.doc" label="%featureName" provider-name="%providerName">
+  <description url="http://www.eclipse.org/sirius">
+Sirius documentation. Includes information on how to use Sirius-based modelers (for end-users), how to create new graphical modelers using Sirius (for specifiers/architects) and how to extend the Sirius platform (for developers and advanced specifiers).
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.sirius.doc.feature" version="7.1.0.202303020853"/>
+  <plugin id="org.eclipse.sirius.doc.source" version="7.1.0.202303020853" download-size="0" install-size="0" unpack="false"/>
+</feature>

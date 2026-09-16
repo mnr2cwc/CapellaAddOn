@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2009, 2019 THALES GLOBAL SERVICES.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.eclipse.egf.model.ui.feature"
+      label="%featureName"
+      version="1.6.3.202110291409"
+      provider-name="%providerName"
+      plugin="org.eclipse.egf.model.editor"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+	%copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%EMFTUpdateSiteName" url="http://download.eclipse.org/modeling/emft/updates/"/>
+      <discovery label="%EMFUpdateSiteName" url="http://download.eclipse.org/modeling/emf/updates/"/>
+      <discovery label="%EMFTUpdateSiteName" url="http://download.eclipse.org/modeling/emft/updates/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.emf.databinding"/>
+      <import feature="org.eclipse.emf.databinding.edit"/>
+      <import feature="org.eclipse.egf.model.edit.feature"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.egf.model.editor"
+         download-size="183"
+         install-size="370"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egf.task.ui"
+         download-size="25"
+         install-size="45"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egf.pattern.ui"
+         download-size="459"
+         install-size="938"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egf.pattern.ui.java"
+         download-size="12"
+         install-size="16"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egf.pattern.ui.jet"
+         download-size="11"
+         install-size="14"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+</feature>

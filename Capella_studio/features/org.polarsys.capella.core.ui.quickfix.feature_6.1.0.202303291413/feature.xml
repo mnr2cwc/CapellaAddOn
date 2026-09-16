@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2020 THALES GLOBAL SERVICES.
+  
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.capella.core.ui.quickfix.feature"
+      label="%featureName"
+      version="6.1.0.202303291413"
+      provider-name="%providerName">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.polarsys.capella.core.data.core.ui.quickfix"
+         download-size="54"
+         install-size="195"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.information.ui.quickfix"
+         download-size="59"
+         install-size="200"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.fa.ui.quickfix"
+         download-size="127"
+         install-size="347"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.cs.ui.quickfix"
+         download-size="63"
+         install-size="209"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+         
+   <plugin
+         id="org.polarsys.capella.core.data.ctx.ui.quickfix"
+         download-size="22"
+         install-size="124"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+         
+   <plugin
+         id="org.polarsys.capella.core.data.la.ui.quickfix"
+         download-size="25"
+         install-size="131"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.pa.ui.quickfix"
+         download-size="43"
+         install-size="168"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+         
+   <plugin
+         id="org.polarsys.capella.core.data.epbs.ui.quickfix"
+         download-size="21"
+         install-size="123"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.interaction.ui.quickfix"
+         download-size="67"
+         install-size="223"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.common.ui.quickfix"
+         download-size="30"
+         install-size="138"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.re.ui.quickfix"
+         download-size="30"
+         install-size="146"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+</feature>

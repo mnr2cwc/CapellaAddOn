@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.patterns.feature.source" version="6.1.0.202303220900" label="%featureName" provider-name="%providerName">
+  <description>
+      This is a customization of the Modeling Patterns framework for Kitalpha.
+Its purpose it to provide a better user experience than the default one for Kitalpha users.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.patterns.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.patterns.emde.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.patterns.emde.gen.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.patterns.emde.gen.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.richtext.widget.ext.feature.source" version="6.1.0.202303220900" label="%Feature-Name" provider-name="%Feature-Vendor">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.richtext.widget.ext.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.richtext.widget.ext.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.core.ui.feature.source" version="6.1.0.202303291413" label="%featureName" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.core.ui.feature" version="6.1.0.202303291413"/>
+  <plugin id="org.polarsys.capella.core.data.business.queries.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.selection.queries.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.eclipse.ui.trace.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.menu.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.perspective.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.adapter.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.navigator.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.project.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.sirius.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.sirius.analysis.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.actions.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.menu.dynamic.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.ui.services.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.services.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.menu.contributions.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.model.handler.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.ui.metric.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.model.obfuscator.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.ui.reportlog.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.validation.commandline.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.preferences.project.configuration.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.clipboard.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.linkedtext.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.ui.intro.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+</feature>

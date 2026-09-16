@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.common.ui.feature.source" version="6.1.0.202303291413" label="%featureName" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.common.ui.feature" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.common.ui.massactions.feature.source" version="6.1.0.202303291413"/>
+  <plugin id="org.polarsys.capella.common.tools.report.appenders.console.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.appenders.file.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.appenders.reportlogview.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.platform.eclipse.tools.report.console.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.platform.eclipse.tools.report.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ui.services.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ui.toolkit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ui.toolkit.browser.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.platform.sirius.customization.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.linkedtext.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ui.menu.dynamic.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.re.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.flexibility.wizards.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.appenders.usage.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.appenders.usage.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008, 2010 Obeo.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+        Obeo - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.emf.eef.sdk-feature"
+      label="%featureName"
+      version="1.5.1.201601141612"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.eef.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2008 - 2010 Obeo.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%modelingUpdateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%modelingUpdateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.emf.eef.runtime-feature"
+         version="1.5.1.201601141612"/>
+
+   <includes
+         id="org.eclipse.emf.eef.extended-feature"
+         version="1.5.1.201601141612"/>
+
+   <includes
+         id="org.eclipse.emf.eef.codegen.ecore-feature"
+         version="1.5.1.201601141612"/>
+
+   <includes
+         id="org.eclipse.emf.eef.edt-feature"
+         version="1.5.1.201601141612"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.runtime.source"
+         download-size="231"
+         install-size="677"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.runtime.extended.source"
+         download-size="67"
+         install-size="179"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.codegen.extended.source"
+         download-size="45"
+         install-size="121"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.editor.model.source"
+         download-size="247"
+         install-size="1004"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.codegen.ecore.source"
+         download-size="201"
+         install-size="997"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.codegen.source"
+         download-size="276"
+         install-size="981"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.components.source"
+         download-size="31"
+         install-size="110"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.components.edit.source"
+         download-size="99"
+         install-size="418"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.components.editor.source"
+         download-size="26"
+         install-size="91"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.mapping.source"
+         download-size="154"
+         install-size="700"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.mapping.edit.source"
+         download-size="380"
+         install-size="1524"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.views.source"
+         download-size="68"
+         install-size="277"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.views.edit.source"
+         download-size="178"
+         install-size="669"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.views.editor.source"
+         download-size="43"
+         install-size="168"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.codegen.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.eefgen.source"
+         download-size="37"
+         install-size="187"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.eefgen.edit.source"
+         download-size="79"
+         install-size="409"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.eefgen.editor.source"
+         download-size="26"
+         install-size="91"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.doc.source"
+         download-size="39"
+         install-size="58"
+         version="1.5.1.201601141612"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.eef.branding"
+         download-size="12"
+         install-size="15"
+         version="1.5.1.201601141612"/>
+
+</feature>

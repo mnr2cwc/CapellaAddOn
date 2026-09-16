@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2010-2019 Thales Global Services S.A.S.
+  This program and the accompanying materials are made
+  available under the terms of the Eclipse Public License 2.0
+  which is available at https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+   Contributors:
+  Thales Global Services S.A.S - initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.diffmerge.patterns.sdk.feature"
+      label="%featureName"
+      version="0.14.1.202303210912"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.emf.transaction"/>
+      <import plugin="org.eclipse.emf.ecore.edit"/>
+      <import plugin="org.eclipse.emf.diffmerge"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ocl.ecore"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui"/>
+      <import plugin="org.apache.batik.transcoder"/>
+      <import plugin="org.eclipse.emf.diffmerge.ui"/>
+      <import plugin="org.eclipse.emf.ecore.editor"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.jface.text"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.core"
+         download-size="97"
+         install-size="182"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.core.gen"
+         download-size="110"
+         install-size="331"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.core.gen.edit"
+         download-size="62"
+         install-size="122"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.diagrams"
+         download-size="48"
+         install-size="94"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.repositories.catalogs"
+         download-size="32"
+         install-size="57"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.support"
+         download-size="27"
+         install-size="51"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.support.gen"
+         download-size="60"
+         install-size="144"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.support.gen.edit"
+         download-size="43"
+         install-size="78"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.templates.engine"
+         download-size="132"
+         install-size="312"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.templates.gen"
+         download-size="153"
+         install-size="486"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.templates.gen.edit"
+         download-size="106"
+         install-size="212"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.templates.gen.editor"
+         download-size="84"
+         install-size="170"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.templates.ocl"
+         download-size="46"
+         install-size="95"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.ui"
+         download-size="609"
+         install-size="1365"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.patterns.doc"
+         download-size="4042"
+         install-size="5235"
+         version="0.14.1.202303210912"/>
+
+</feature>

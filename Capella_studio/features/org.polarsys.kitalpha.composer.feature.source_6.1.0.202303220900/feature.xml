@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.composer.feature.source" version="6.1.0.202303220900" label="%featureName" provider-name="%providerVendor">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.composer.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.composer.core.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.composer.metamodel.allocation.base.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.composer.metamodel.allocation.base.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.composer.metamodel.allocation.base.model.editor.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.composer.ui.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.composer.ui.help.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

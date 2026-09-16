@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.composer.examples.feature"
+      label="%featureName"
+      version="6.1.0.202303220900"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.polarsys.kitalpha.cadence.feature"/>
+      <import plugin="com.google.guava"/>
+      <import plugin="org.eclipse.acceleo.common"/>
+      <import plugin="org.eclipse.acceleo.engine"/>
+      <import plugin="org.eclipse.acceleo.model"/>
+      <import plugin="org.eclipse.acceleo.profiler"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.edit"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.ocl"/>
+      <import plugin="org.eclipse.ocl.ecore"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.polarsys.kitalpha.composer.core"/>
+      <import plugin="org.polarsys.kitalpha.composer.metamodel.allocation.base.model"/>
+      <import plugin="org.polarsys.kitalpha.composer.metamodel.allocation.base.model.edit"/>
+      <import plugin="org.polarsys.kitalpha.examples.generic.wizard"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced"
+         download-size="120"
+         install-size="217"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.allocation.ecore"
+         download-size="14"
+         install-size="20"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.allocation.ecore.model"
+         download-size="35"
+         install-size="65"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.allocation.ecore.model.edit"
+         download-size="32"
+         install-size="59"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.allocation.ecore.model.editor"
+         download-size="76"
+         install-size="149"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.ecore.gen.binding"
+         download-size="13"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.ecore.gen.generator"
+         download-size="20"
+         install-size="31"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.ecore.gen.refinery"
+         download-size="18"
+         install-size="27"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.ecore.gen.strategy.manyfile"
+         download-size="16"
+         install-size="22"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.advanced.ecore.gen.strategy.onefile"
+         download-size="16"
+         install-size="22"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic"
+         download-size="122"
+         install-size="225"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.allocation.ecore"
+         download-size="14"
+         install-size="47"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.allocation.ecore.model"
+         download-size="27"
+         install-size="49"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.allocation.ecore.model.edit"
+         download-size="25"
+         install-size="42"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.allocation.ecore.model.editor"
+         download-size="76"
+         install-size="147"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.binding"
+         download-size="13"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.generator"
+         download-size="20"
+         install-size="31"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.refinery"
+         download-size="14"
+         install-size="19"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.strategy"
+         download-size="16"
+         install-size="23"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.strategy.compound"
+         download-size="14"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.strategy.consonant"
+         download-size="16"
+         install-size="23"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.basic.ecore.gen.strategy.vowel"
+         download-size="16"
+         install-size="23"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended"
+         download-size="162"
+         install-size="267"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.allocation"
+         download-size="12"
+         install-size="18"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.allocation.model"
+         download-size="24"
+         install-size="42"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.allocation.model.edit"
+         download-size="20"
+         install-size="33"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.allocation.model.editor"
+         download-size="74"
+         install-size="140"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.gen.binding"
+         download-size="13"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.extended.ecorex.gen.generator"
+         download-size="24"
+         install-size="35"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive"
+         download-size="106"
+         install-size="195"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.allocation.ecore"
+         download-size="14"
+         install-size="19"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.allocation.ecore.model"
+         download-size="28"
+         install-size="50"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.allocation.ecore.model.edit"
+         download-size="25"
+         install-size="43"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.allocation.ecore.model.editor"
+         download-size="77"
+         install-size="150"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.binding"
+         download-size="13"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.composergen"
+         download-size="13"
+         install-size="17"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.generator"
+         download-size="18"
+         install-size="27"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.refinery"
+         download-size="14"
+         install-size="19"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.strategy"
+         download-size="15"
+         install-size="22"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+<!--
+   <plugin
+         id="org.polarsys.kitalpha.m2t.componentsample.to.html"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+-->
+</feature>

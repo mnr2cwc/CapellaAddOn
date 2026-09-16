@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.feature.source" version="6.1.0.202303220900" label="Viewpoint dsl abstract description feature Developer Resources" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.commondata.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.commondata.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.commondata.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.conf.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.conf.fc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.conf.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.conf.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.helper.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.model.editor.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.desc.validation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.services.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.services.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.services.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.services.validation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.ui.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.ui.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.ui.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.ui.validation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.build.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.build.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.build.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.fc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.fc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.helper.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.validation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.helper.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.activityexplorer.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.activityexplorer.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.activityexplorer.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.activityexplorer.validatation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.activityexplorer.helper.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.style.customization.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.style.customization.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.style.customization.validation.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

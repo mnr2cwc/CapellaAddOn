@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.ad.af.dsl.as.feature"
+      label="Architecture framework dsl abstract description feature"
+      version="6.1.0.202303220900"
+      provider-name="%providerName">
+
+   <description url="http://www.example.com/description">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.dsl.as.desc"
+         download-size="10"
+         install-size="16"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.dsl.as.desc.helper"
+         download-size="13"
+         install-size="16"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model"
+         download-size="41"
+         install-size="79"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model.edit"
+         download-size="34"
+         install-size="60"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model.editor"
+         download-size="79"
+         install-size="156"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+</feature>

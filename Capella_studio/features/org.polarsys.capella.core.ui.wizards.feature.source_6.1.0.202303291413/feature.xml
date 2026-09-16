@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.core.ui.wizards.feature.source" version="6.1.0.202303291413" label="%featureName" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.core.ui.wizards.feature" version="6.1.0.202303291413"/>
+  <plugin id="org.polarsys.capella.core.data.fa.ui.wizards.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.la.ui.wizards.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.ui.fastlinker.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.model.links.helpers.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.ui.search.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+</feature>

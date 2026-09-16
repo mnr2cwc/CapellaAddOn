@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.emde.genchain.feature"
+      label="Kitalpha eMDE Genchain Integration Feature"
+      version="6.1.0.202303220900"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.egf.portfolio.genchain.feature"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.kitalpha.emde.genchain"
+         download-size="46"
+         install-size="91"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.emde.genchain.model"
+         download-size="25"
+         install-size="44"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.emde.genchain.model.edit"
+         download-size="25"
+         install-size="39"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+</feature>

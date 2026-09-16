@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+ 
+  Contributors:
+     Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.capella.studio.releng.capella.feature"
+      label="Releng feature Capella for capella studio"
+      version="6.1.0.202303291548"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.polarsys.capella.rcp"
+         version="6.1.0.202303291413"/>
+
+   <includes
+         id="org.polarsys.capella.rcp.source"
+         version="6.1.0.202303291413"/>
+
+   <includes
+         id="org.polarsys.capella.cdo.mock.feature"
+         version="6.1.0.202303291413"/>
+
+   <includes
+         id="org.polarsys.capella.core.egf.feature"
+         version="6.1.0.202303291413"/>
+
+   <includes
+         id="org.polarsys.capella.core.egf.feature.source"
+         version="6.1.0.202303291413"/>
+
+   <includes
+         id="org.polarsys.capella.studio.product.feature"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.ta.viewpoint.dsl.feature"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.ta.viewpoint.dsl.feature.source"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.cdo.ta.definition.feature"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.cdo.ta.definition.feature.source"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.extension.sdk.feature"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.extension.sdk.feature.source"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.docgen.configuration.feature"
+         version="6.1.0.202303281352"/>
+
+   <includes
+         id="org.polarsys.capella.docgen.feature"
+         version="6.1.0.202303281352"/>
+
+   <includes
+         id="org.polarsys.capella.cdoxml.ta.definition.feature"
+         version="6.1.0.202303291548"/>
+
+   <includes
+         id="org.polarsys.capella.cdoxml.ta.definition.feature.source"
+         version="6.1.0.202303291548"/>
+
+</feature>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+
+Name: feature.xml
+SHA-256-Digest: Y42yRs06LlLxTGc821WtcoA+A2inmaEXoEIdBdESaHI=
+
+Name: feature.properties
+SHA-256-Digest: Co4lmZHnPqkwLuNA3gp8vp0U9AXX+Yjh9XdXK5SCljs=
+

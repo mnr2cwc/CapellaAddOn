@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.representation.feature.source" version="6.1.0.202303220900" label="%description" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.representation.feature" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.representation.ecore.feature.source" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.representation.egf.feature.source" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.representation.emde.feature.source" version="6.1.0.202303220900"/>
+</feature>

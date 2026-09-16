@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.core.validation.feature.source" version="6.1.0.202303291413" label="%featureName" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.core.validation.feature" version="6.1.0.202303291413"/>
+  <plugin id="org.polarsys.capella.core.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.cs.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.ctx.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.epbs.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.fa.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.information.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.interaction.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.la.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.oa.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.pa.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.core.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.common.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.information.datatype.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.platform.sirius.sirius.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.information.communication.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.data.pa.deployment.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.validation.ui.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.validation.ui.ide.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.core.re.validation.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+</feature>

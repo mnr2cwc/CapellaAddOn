@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2020 THALES GLOBAL SERVICES.
+  
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.capella.core.ui.wizards.feature"
+      label="%featureName"
+      version="6.1.0.202303291413"
+      provider-name="%providerName">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.polarsys.capella.core.ui.semantic.browser.feature"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.capella.core.data.fa.ui.wizards"
+         download-size="76"
+         install-size="240"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.la.ui.wizards"
+         download-size="53"
+         install-size="184"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.ui.fastlinker"
+         download-size="72"
+         install-size="228"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.model.links.helpers"
+         download-size="52"
+         install-size="177"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.ui.search"
+         download-size="131"
+         install-size="361"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+</feature>

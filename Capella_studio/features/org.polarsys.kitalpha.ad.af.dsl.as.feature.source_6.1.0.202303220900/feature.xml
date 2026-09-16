@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.ad.af.dsl.as.feature.source" version="6.1.0.202303220900" label="Architecture framework dsl abstract description feature Developer Resources" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.ad.af.dsl.as.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.as.desc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.as.desc.helper.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.as.desc.model.editor.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

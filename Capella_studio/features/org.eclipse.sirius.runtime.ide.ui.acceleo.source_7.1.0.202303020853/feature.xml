@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.sirius.runtime.ide.ui.acceleo.source" version="7.1.0.202303020853" plugin="org.eclipse.sirius.interpreter" label="%featureName" provider-name="%providerName">
+  <description url="http://www.eclipse.org/sirius">
+Sirius IDE integration with Interpreter view of Acceleo 3. Provides Sirius-specific extensions to the Acceleo Interpreter view.
+This view is provided through feature org.eclipse.acceleo.ui.interpreter and is independent of the rest of Acceleo.
+Install this if you want to create Sirius-based modelers and want to easily test your expressions.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.sirius.runtime.ide.ui.acceleo" version="7.1.0.202303020853"/>
+  <plugin id="org.eclipse.sirius.interpreter.source" version="7.1.0.202303020853" download-size="0" install-size="0" unpack="false"/>
+</feature>

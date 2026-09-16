@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.emde.feature.source" version="6.1.0.202303220900" label="Kitalpha eMDE Feature Developer Resources" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="license.html">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.emde.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.emde.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.emde.model.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.emde.model.edit.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.emde.xmi.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

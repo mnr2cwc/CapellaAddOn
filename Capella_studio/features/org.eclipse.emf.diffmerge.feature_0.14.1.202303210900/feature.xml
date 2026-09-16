@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2010-2019 Thales Global Services S.A.S.
+  This program and the accompanying materials are made
+  available under the terms of the Eclipse Public License 2.0
+  which is available at https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+   Contributors:
+  Thales Global Services S.A.S - initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.diffmerge.feature"
+      label="%featureName"
+      version="0.14.1.202303210900"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge"
+         download-size="150"
+         install-size="388"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.ui"
+         download-size="562"
+         install-size="1224"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.connector.core"
+         download-size="34"
+         install-size="61"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.doc"
+         download-size="2223"
+         install-size="2404"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.structures"
+         download-size="151"
+         install-size="332"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.generic"
+         download-size="179"
+         install-size="474"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.pojo"
+         download-size="86"
+         install-size="247"
+         version="0.14.1.202303210900"
+         unpack="false"/>
+
+</feature>

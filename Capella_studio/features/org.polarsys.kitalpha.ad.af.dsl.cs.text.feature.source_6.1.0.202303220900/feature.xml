@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.ad.af.dsl.cs.text.feature.source" version="6.1.0.202303220900" label="Architecture Framework Textual Dsl Feature Developer Resources">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.ad.af.dsl.cs.text.feature" version="6.1.0.202303220900"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.cs.text.afdesc.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.cs.text.afdesc.ui.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.services.cs.text.generators.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.kitalpha.ad.af.dsl.services.cs.text.wizards.source" version="6.1.0.202303220900" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.kitalpha.ad.viewpoint.dsl.feature.source" version="6.1.0.202303220900" label="Viewpoint dsl feature Developer Resources" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.feature" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.feature.source" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.generation.feature.source" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.services.feature.source" version="6.1.0.202303220900"/>
+  <includes id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.feature.source" version="6.1.0.202303220900"/>
+</feature>

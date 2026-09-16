@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2007, 2015 THALES GLOBAL SERVICES and others
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<feature
+      id="org.eclipse.sirius.runtime.ide.eef"
+      label="%featureName"
+      version="7.1.0.202303020853"
+      provider-name="%providerName"
+      plugin="org.eclipse.sirius.eef.adapters">
+
+   <description url="http://www.eclipse.org/sirius">
+Support for using EEF 1.5 (or earlier) views and wizards with Sirius representations.
+Install this if you have property views for your domain model generated using EEF 1.5 or earlier (not EEF 1.6+) and want to see them when editing your domain through Sirius-based modelers.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sirius.eef.adapters"
+         download-size="817"
+         install-size="3006"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2009, 2019 THALES GLOBAL SERVICES.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+    id="org.eclipse.egf.producer.feature"
+    label="%featureName"
+    version="1.6.3.202110291409"
+    provider-name="%providerName"
+    plugin="org.eclipse.egf.producer"
+    image="eclipse_update_120.jpg"
+>
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+	%copyright
+    </copyright>
+
+    <license url="%licenseURL">
+      %license
+   </license>
+
+    <url>
+        <update 
+            label="%EMFTUpdateSiteName" 
+            url="http://download.eclipse.org/modeling/emft/updates/"/>
+        <discovery 
+            label="%EMFUpdateSiteName" 
+            url="http://download.eclipse.org/modeling/emf/updates/"/>
+        <discovery 
+            label="%EMFTUpdateSiteName" 
+            url="http://download.eclipse.org/modeling/emft/updates/"/>
+    </url>
+    
+    <requires>
+        <import 
+            feature="org.eclipse.emf.query"/>
+        <import 
+            feature="org.eclipse.emf.transaction"/>
+        <import 
+            feature="org.eclipse.egf.model.feature"/>        
+    </requires>    
+
+    <plugin
+        id="org.eclipse.egf.pattern"
+        download-size="147"
+        install-size="316"
+        version="1.6.3.202110291409"
+        unpack="false"/>
+
+    <plugin
+        id="org.eclipse.egf.pattern.java"
+        download-size="28"
+        install-size="50"
+        version="1.6.3.202110291409"
+        unpack="false"/>
+
+    <plugin
+        id="org.eclipse.egf.pattern.jet"
+        download-size="35"
+        install-size="60"
+        version="1.6.3.202110291409"
+        unpack="false"/>
+
+    <plugin
+        id="org.eclipse.egf.producer"
+        download-size="69"
+        install-size="158"
+        version="1.6.3.202110291409"
+        unpack="false"/>
+         
+    <plugin
+        id="org.eclipse.egf.application"
+        download-size="34"
+        install-size="53"
+        version="1.6.3.202110291409"
+        unpack="false"/>         
+
+</feature>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2016-2019 Thales Global Services S.A.S.
+  This program and the accompanying materials are made
+  available under the terms of the Eclipse Public License 2.0
+  which is available at https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+   Contributors:
+  Thales Global Services S.A.S - initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.diffmerge.coevolution.sdk.feature"
+      label="%featureName"
+      version="0.14.1.202303210912"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.diffmerge"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.emf.diffmerge.ui"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge"
+         download-size="69"
+         install-size="129"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.incremental"
+         download-size="20"
+         install-size="34"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.interactive"
+         download-size="47"
+         install-size="93"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.mapping"
+         download-size="57"
+         install-size="119"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.traces.gen"
+         download-size="32"
+         install-size="57"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.traces.gen.edit"
+         download-size="23"
+         install-size="35"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.traces.gen.editor"
+         download-size="82"
+         install-size="162"
+         version="0.14.1.202303210912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.diffmerge.bridge.log4j"
+         download-size="26"
+         install-size="43"
+         version="0.14.1.202303210912"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

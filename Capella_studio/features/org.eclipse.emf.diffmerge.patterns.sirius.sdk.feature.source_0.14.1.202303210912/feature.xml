@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.diffmerge.patterns.sirius.sdk.feature.source" version="0.14.1.202303210912" label="%featureName" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.emf.diffmerge.patterns.sirius.sdk.feature" version="0.14.1.202303210912"/>
+  <includes id="org.eclipse.emf.diffmerge.patterns.sdk.feature.source" version="0.14.1.202303210912"/>
+  <plugin id="org.eclipse.emf.diffmerge.patterns.diagrams.sirius.source" version="0.14.1.202303210912" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.diffmerge.patterns.ui.sirius.source" version="0.14.1.202303210912" download-size="0" install-size="0" unpack="false"/>
+</feature>

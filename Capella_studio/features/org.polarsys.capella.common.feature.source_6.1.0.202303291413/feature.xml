@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.common.feature.source" version="6.1.0.202303291413" label="%featureName" provider-name="%providerName">
+  <description url="http://www.example.com/description">
+      This feature contains the plug-ins which allow to use the model.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.common.feature" version="6.1.0.202303291413"/>
+  <plugin id="org.polarsys.capella.common.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.shared.id.handler.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.model.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.helpers.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.tools.report.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.ef.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.platform.sirius.ted.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.queries.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.model.helpers.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.menu.dynamic.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.mdsofa.common.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.activity.gen.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.activity.gen.edit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.behavior.gen.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.behavior.gen.edit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.core.gen.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.core.gen.edit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.re.gen.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.re.gen.edit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.libraries.gen.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.libraries.gen.edit.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.id.handler.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.data.helpers.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.libraries.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.re.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.flexibility.properties.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.polarsys.capella.common.transition.source" version="6.1.0.202303291413" download-size="0" install-size="0" unpack="false"/>
+</feature>

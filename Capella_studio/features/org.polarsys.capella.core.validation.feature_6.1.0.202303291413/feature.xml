@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2020 THALES GLOBAL SERVICES.
+  
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.capella.core.validation.feature"
+      label="%featureName"
+      version="6.1.0.202303291413"
+      provider-name="%providerName">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.polarsys.capella.core.ui.feature"/>
+      <import feature="org.polarsys.capella.core.common.feature"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.capella.core.validation"
+         download-size="44"
+         install-size="144"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.cs.validation"
+         download-size="120"
+         install-size="360"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.ctx.validation"
+         download-size="47"
+         install-size="159"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.epbs.validation"
+         download-size="23"
+         install-size="103"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.fa.validation"
+         download-size="144"
+         install-size="420"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.information.validation"
+         download-size="137"
+         install-size="364"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.interaction.validation"
+         download-size="92"
+         install-size="287"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.la.validation"
+         download-size="38"
+         install-size="142"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.oa.validation"
+         download-size="26"
+         install-size="110"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.pa.validation"
+         download-size="48"
+         install-size="190"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.core.validation"
+         download-size="110"
+         install-size="323"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.common.validation"
+         download-size="53"
+         install-size="187"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.information.datatype.validation"
+         download-size="26"
+         install-size="111"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.platform.sirius.sirius.validation"
+         download-size="90"
+         install-size="276"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.information.communication.validation"
+         download-size="23"
+         install-size="106"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.data.pa.deployment.validation"
+         download-size="19"
+         install-size="94"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.validation.ui"
+         download-size="48"
+         install-size="171"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.validation.ui.ide"
+         download-size="61"
+         install-size="205"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.re.validation"
+         download-size="43"
+         install-size="179"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+</feature>

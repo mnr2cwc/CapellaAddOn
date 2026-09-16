@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2007, 2015 THALES GLOBAL SERVICES and others
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Obeo - Initial API and implementation
+-->
+<feature
+      id="org.eclipse.sirius.specifier.ide.ui"
+      label="%featureName"
+      version="7.1.0.202303020853"
+      provider-name="%providerName"
+      plugin="org.eclipse.sirius.editor">
+
+   <description url="http://www.eclipse.org/sirius">
+Sirius Specification Environment. Provides wizards and editors to create Viewpoint Specification Projects and Models.
+Install this if you want to create your own Sirius-based modelers.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sirius.editor"
+         download-size="1090"
+         install-size="2277"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.diagram"
+         download-size="719"
+         install-size="1520"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.sequence"
+         download-size="245"
+         install-size="544"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.table"
+         download-size="185"
+         install-size="387"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sirius.editor.tree"
+         download-size="96"
+         install-size="194"
+         version="7.1.0.202303020853"
+         unpack="false"/>
+
+</feature>

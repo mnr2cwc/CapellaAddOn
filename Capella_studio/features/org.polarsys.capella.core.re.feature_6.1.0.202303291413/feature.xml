@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2020 THALES GLOBAL SERVICES.
+  
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+  
+  SPDX-License-Identifier: EPL-2.0
+  
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.capella.core.re.feature"
+      label="%featureName"
+      version="6.1.0.202303291413"
+      provider-name="%providerName">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.polarsys.capella.core.re.ui"
+         download-size="37"
+         install-size="163"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.re"
+         download-size="121"
+         install-size="371"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.common.flexibility.properties"
+         download-size="55"
+         install-size="112"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.common.flexibility.wizards"
+         download-size="152"
+         install-size="395"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.re.updateconnections.ui"
+         download-size="62"
+         install-size="224"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.capella.core.re.project"
+         download-size="48"
+         install-size="190"
+         version="6.1.0.202303291413"
+         unpack="false"/>
+
+</feature>

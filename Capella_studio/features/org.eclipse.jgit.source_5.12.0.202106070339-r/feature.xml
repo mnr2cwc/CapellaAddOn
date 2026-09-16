@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jgit.source"
+      label="%featureName"
+      version="5.12.0.202106070339-r"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/jgit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.jgit" version="5.12.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jgit.source"
+         download-size="1986"
+         install-size="6102"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.ant.source"
+         download-size="16"
+         install-size="29"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.archive.source"
+         download-size="21"
+         install-size="41"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.http.apache.source"
+         download-size="18"
+         install-size="38"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.http.server.source"
+         download-size="66"
+         install-size="160"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.junit.source"
+         download-size="42"
+         install-size="115"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.junit.http.source"
+         download-size="21"
+         install-size="48"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.junit.ssh.source"
+         download-size="56"
+         install-size="113"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.lfs.source"
+         download-size="61"
+         install-size="142"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.lfs.server.source"
+         download-size="34"
+         install-size="79"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.pgm.source"
+         download-size="159"
+         install-size="401"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.ssh.apache.source"
+         download-size="110"
+         install-size="293"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.ssh.jsch.source"
+         download-size="27"
+         install-size="63"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.ui.source"
+         download-size="19"
+         install-size="38"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.gpg.bc.source"
+         download-size="47"
+         install-size="135"
+         version="5.12.0.202106070339-r"
+         unpack="false"/>
+
+</feature>

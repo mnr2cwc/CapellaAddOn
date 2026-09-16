@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.polarsys.capella.core.advance.feature.source" version="6.1.0.202303291413" plugin="org.polarsys.capella.core.platform.sirius.ui.perspective" label="%featureName" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.polarsys.capella.core.advance.feature" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.common.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.common.ui.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.properties.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.validation.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.ui.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.ui.semantic.browser.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.ui.quickfix.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.transfo.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.dashboard.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.transition.system.topdown.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.ui.wizards.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.re.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.libraries.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.migration.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.compare.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.detachment.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.doc.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.common.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.common.ui.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.ui.transfo.feature.source" version="6.1.0.202303291413"/>
+  <includes id="org.polarsys.capella.core.git.feature.source" version="6.1.0.202303291413"/>
+</feature>

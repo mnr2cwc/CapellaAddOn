@@ -1,0 +1,35 @@
+!SESSION 2026-09-16 15:58:17.809 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -showLocation -version
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showLocation -version
+
+!ENTRY org.eclipse.osgi 4 0 2026-09-16 15:58:22.103
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTError: No more handles [gtk_init_check() failed]
+	at org.eclipse.swt.SWT.error(SWT.java:4919)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:1165)
+	at org.eclipse.swt.widgets.Display.create(Display.java:1090)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:168)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:642)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:633)
+	at org.eclipse.ui.internal.Workbench.createDisplay(Workbench.java:742)
+	at org.eclipse.ui.PlatformUI.createDisplay(PlatformUI.java:168)
+	at org.polarsys.capella.studio.product.Application.createDisplay(Application.java:169)
+	at org.polarsys.capella.studio.product.Application.start(Application.java:97)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)

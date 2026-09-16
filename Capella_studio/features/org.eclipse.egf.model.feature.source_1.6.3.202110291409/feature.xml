@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.egf.model.feature.source" version="1.6.3.202110291409" plugin="org.eclipse.egf.model" label="%featureName" provider-name="%providerName">
+  <description>
+      %description
+   </description>
+  <copyright>
+	%copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.egf.model.feature" version="1.6.3.202110291409"/>
+  <plugin id="org.eclipse.egf.model.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.model.javapattern.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.model.jetpattern.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.pattern.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.pattern.java.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.pattern.jet.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.egf.domain.source" version="1.6.3.202110291409" download-size="0" install-size="0" unpack="false"/>
+</feature>

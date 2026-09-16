@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2009, 2019 THALES GLOBAL SERVICES.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.eclipse.egf.sdk.feature"
+      label="%featureName"
+      version="1.6.3.202110291409"
+      provider-name="%providerName"
+      plugin="org.eclipse.egf.core"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%EMFTUpdateSiteName" url="http://download.eclipse.org/modeling/emft/updates/"/>
+      <discovery label="%EMFUpdateSiteName" url="http://download.eclipse.org/modeling/emf/updates/"/>
+      <discovery label="%EMFTUpdateSiteName" url="http://download.eclipse.org/modeling/emft/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.egf.feature"
+         version="1.6.3.202110291409"/>
+
+   <includes
+         id="org.eclipse.egf.doc.feature"
+         version="1.6.3.202110291409"/>
+
+   <includes
+         id="org.eclipse.egf.portfolio.feature"
+         version="1.6.3.202110291409"/>
+
+   <includes
+         id="org.eclipse.egf.portfolio.emf.feature"
+         version="1.6.3.202110291409"/>
+
+   <includes
+         id="org.eclipse.egf.portfolio.genchain.feature"
+         version="1.6.3.202110291409"/>
+
+   <plugin
+         id="org.eclipse.egf.examples.installer"
+         download-size="700"
+         install-size="825"
+         version="1.6.3.202110291409"
+         unpack="false"/>
+
+</feature>

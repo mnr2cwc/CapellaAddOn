@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.feature"
+      label="Kitalpha Viewpoint Textual DSL Feature"
+      version="6.1.0.202303220900"
+      provider-name="www.polarsys.org">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.common"
+         download-size="132"
+         install-size="257"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.common.ui"
+         download-size="79"
+         install-size="160"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.helpers"
+         download-size="25"
+         install-size="50"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.build"
+         download-size="105"
+         install-size="241"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.build.ui"
+         download-size="91"
+         install-size="308"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.conf"
+         download-size="115"
+         install-size="279"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.conf.ui"
+         download-size="104"
+         install-size="371"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.diagram"
+         download-size="559"
+         install-size="1673"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.diagram.ui"
+         download-size="406"
+         install-size="1984"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.services"
+         download-size="112"
+         install-size="252"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.services.ui"
+         download-size="84"
+         install-size="272"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.desc"
+         download-size="123"
+         install-size="293"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.data"
+         download-size="231"
+         install-size="605"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.data.ui"
+         download-size="206"
+         install-size="760"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.desc.ui"
+         download-size="109"
+         install-size="321"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.ui"
+         download-size="129"
+         install-size="285"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.ui.ui"
+         download-size="83"
+         install-size="258"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.data.lib"
+         download-size="13"
+         install-size="15"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.services.cs.text.generators"
+         download-size="71"
+         install-size="152"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.activityexplorer"
+         download-size="104"
+         install-size="276"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.dsl.cs.text.activityexplorer.ui"
+         download-size="120"
+         install-size="416"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+</feature>

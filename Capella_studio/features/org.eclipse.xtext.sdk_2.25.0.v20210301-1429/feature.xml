@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.sdk"
+      label="%featureName"
+      version="2.25.0.v20210301-1429"
+      provider-name="%providerName"
+      plugin="org.eclipse.xtext">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2016, 2018 Xtext Committers and Contributors.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases"/>
+   </url>
+
+   <includes
+         id="org.eclipse.xtext.docs"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.runtime"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.redist"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.examples"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.ui"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase.lib"
+         version="2.25.0.v20210301-0822"/>
+
+   <includes
+         id="org.eclipse.xtext.xtext.ui"
+         version="2.25.0.v20210301-1429"/>
+
+   <includes
+         id="org.eclipse.xtend.sdk"
+         version="2.25.0.v20210301-1429"/>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore" version="2.20.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.common" version="2.17.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.source" version="2.20.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.common.source" version="2.17.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.emf.mwe2.language.sdk" version="2.12.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase"
+         download-size="221"
+         install-size="698"
+         version="2.25.0.v20210301-0909"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase.source"
+         download-size="145"
+         install-size="1379"
+         version="2.25.0.v20210301-0909"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase.ide"
+         download-size="252"
+         install-size="1201"
+         version="2.25.0.v20210301-0909"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase.ide.source"
+         download-size="161"
+         install-size="2599"
+         version="2.25.0.v20210301-0909"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase.ui"
+         download-size="27"
+         install-size="71"
+         version="2.25.0.v20210301-0928"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.purexbase.ui.source"
+         download-size="15"
+         install-size="41"
+         version="2.25.0.v20210301-0928"
+         unpack="false"/>
+
+</feature>

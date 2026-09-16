@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.sirius.specifier.ide.ui.acceleo.source" version="7.1.0.202303020853" plugin="org.eclipse.sirius.common.acceleo.mtl.ide" label="%featureName" provider-name="%providerName">
+  <description url="http://www.eclipse.org/sirius">
+Provides completion and validation for Acceleo 3 expressions in the VSM editor.
+Install this if you want to create Sirius-based modelers which use Acceleo expressions in their definitions.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <includes id="org.eclipse.sirius.specifier.ide.ui.acceleo" version="7.1.0.202303020853"/>
+  <plugin id="org.eclipse.sirius.common.acceleo.mtl.ide.source" version="7.1.0.202303020853" download-size="0" install-size="0" unpack="false"/>
+</feature>

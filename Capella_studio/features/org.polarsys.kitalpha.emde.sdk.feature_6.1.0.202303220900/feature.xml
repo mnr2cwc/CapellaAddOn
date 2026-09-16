@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.emde.sdk.feature"
+      label="Kitalpha eMDE SDK Feature"
+      version="6.1.0.202303220900"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.polarsys.kitalpha.emde.genchain.feature"
+         version="6.1.0.202303220900"/>
+
+   <requires>
+      <import feature="org.polarsys.kitalpha.emde.feature"/>
+      <import feature="org.polarsys.kitalpha.emde.ui.feature"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.kitalpha.emde.egf"
+         download-size="414"
+         install-size="1157"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.emde.portfolio.emf.egf"
+         download-size="17"
+         install-size="33"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+</feature>

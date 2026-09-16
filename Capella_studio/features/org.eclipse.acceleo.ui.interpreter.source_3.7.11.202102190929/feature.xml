@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.acceleo.ui.interpreter.source" version="3.7.11.202102190929" plugin="org.eclipse.acceleo.ui.interpreter" label="%featureName" provider-name="%providerName">
+  <includes id="org.eclipse.acceleo.ui.interpreter" version="3.7.11.202102190929"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.acceleo.ui.interpreter.source" version="3.7.11.202102190929" download-size="0" install-size="0" unpack="false"/>
+</feature>

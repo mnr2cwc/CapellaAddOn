@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+
+Name: about.html
+SHA-256-Digest: ZHKRAFcsXDUCTNWHfxQn688RTBne0SvS3rlSJmvmSMs=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.httpcl
+ ient45.feature/pom.properties
+SHA-256-Digest: pLf0pA5XWo/SuGiTe3igngdahOpIyRPv+X2vD0b8yVQ=
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: asl-v20.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: feature.xml
+SHA-256-Digest: 6RPtir7IfE1JErn8XBKWy+RjaHZkLLKr4ZVzEbWBrMY=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.httpcl
+ ient45.feature/pom.xml
+SHA-256-Digest: fElNSD17st0/Q3yjW/2S4z3glW+psoyQ2LQ3O4iWn8c=
+
+Name: feature.properties
+SHA-256-Digest: K7TppOMeuTHx9WdlJTMDMw8zyS0XtzRiQwiwu/yUdDc=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2006, 2021 THALES GLOBAL SERVICES.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+       Thales - initial API and implementation
+-->
+<feature
+      id="org.polarsys.kitalpha.ad.feature"
+      label="Kitalpha AD Feature"
+      version="6.1.0.202303220900"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.polarsys.kitalpha.report.feature" version="6.1.0.qualifier"/>
+      <import feature="org.polarsys.kitalpha.common.feature" version="6.1.0.qualifier"/>
+      <import feature="org.polarsys.kitalpha.resourcereuse.feature" version="6.1.0.qualifier"/>
+      <import feature="org.polarsys.kitalpha.ad.metadata.feature" version="6.1.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.coredomain"
+         download-size="12"
+         install-size="15"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.coredomain.model"
+         download-size="23"
+         install-size="38"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.af.coredomain.model.edit"
+         download-size="18"
+         install-size="26"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.common"
+         download-size="14"
+         install-size="19"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.services"
+         download-size="44"
+         install-size="85"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint"
+         download-size="73"
+         install-size="157"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.coredomain"
+         download-size="12"
+         install-size="24"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.coredomain.model"
+         download-size="90"
+         install-size="215"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.coredomain.model.edit"
+         download-size="84"
+         install-size="160"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+   <plugin
+         id="org.polarsys.kitalpha.ad.viewpoint.predicate"
+         download-size="40"
+         install-size="78"
+         version="6.1.0.202303220900"
+         unpack="false"/>
+
+</feature>
