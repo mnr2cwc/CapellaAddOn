@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Validation_Rules
+Bundle-SymbolicName: com.mnr.capella.validationrules;singleton:=true
+Bundle-Version: 1.0.0.202609161639
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,or
+ g.eclipse.ui,org.eclipse.sirius,org.eclipse.emf.ecore,org.polarsys.ca
+ pella.core.data.gen,org.polarsys.capella.common.data.core.gen,org.pol
+ arsys.capella.common.data.activity.gen,org.polarsys.capella.common.da
+ ta.behavior.gen,org.polarsys.kitalpha.emde.model
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: javax.inject
+Automatic-Module-Name: com.mnr.capella.validationrules
+Bundle-ActivationPolicy: lazy
+
