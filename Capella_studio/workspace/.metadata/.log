@@ -1,0 +1,16 @@
+!SESSION 2026-09-16 15:58:36.088 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -showLocation
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showLocation
+
+!ENTRY org.eclipse.ui 4 4 2026-09-16 16:03:16.643
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.
+
+!ENTRY org.eclipse.pde.build 4 5 2026-09-16 16:39:03.744
+!MESSAGE Processing inclusion from feature org.eclipse.pde.container.feature: Bundle com.mnr.capella.validationrules_1.0.0.202609161639 failed to resolve.:
+	Missing Constraint: Bundle-RequiredExecutionEnvironment: JavaSE-17
+	Host plug-in JavaSE_0.0.0 has not been found.
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Validation"
+            id="com.mnr.capella.validationrules.category">
+      </category>
+      <view
+            id="com.mnr.capella.validationrules.views.ValidationRulesView"
+            name="Validation Rules"
+            icon="icons/sample.png"
+            class="com.mnr.capella.validationrules.views.ValidationRulesView"
+            category="com.mnr.capella.validationrules.category"
+            inject="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="com.mnr.capella.validationrules.views.ValidationRulesView"
+               relative="org.eclipse.ui.views.ProblemView"
+               relationship="right"
+               ratio="0.5">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+</plugin>
