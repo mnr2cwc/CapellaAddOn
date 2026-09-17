@@ -3,14 +3,14 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1680105569048'/>
+    <property name='p2.timestamp' value='1680105593269'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='2876'>
+  <artifacts size='2885'>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.codegen.ui' version='2.23.0.v20210412-0833'>
       <properties size='1'>
         <property name='download.size' value='301938'/>
@@ -414,6 +414,11 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.win32.win32.x86_64.source' version='3.116.100.v20210602-2209'>
+      <properties size='1'>
+        <property name='download.size' value='2047863'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.util' version='2.25.0.v20210301-0843'>
       <properties size='1'>
         <property name='download.size' value='310935'/>
@@ -716,11 +721,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.linux.source' version='1.0.0.v20210424-0724'>
-      <properties size='1'>
-        <property name='download.size' value='11627'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.docgen.configuration.ui' version='6.1.0.202303281352'>
       <properties size='1'>
         <property name='download.size' value='91383'/>
@@ -786,6 +786,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.viewpoint.dsl.services.action' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='24984'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpclient.win.source' version='4.5.13.v20210128-2225'>
+      <properties size='1'>
+        <property name='download.size' value='30648'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.team.cvs.core' version='3.5.0.v20210511-0556'>
@@ -1534,11 +1539,6 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.shared.id.handler' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='20731'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.linux.x86_64.source' version='1.2.500.v20210510-1619'>
-      <properties size='1'>
-        <property name='download.size' value='7587'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jdt.doc.user' version='3.15.1100.v20210531-1101'>
@@ -2365,6 +2365,11 @@
         <property name='download.size' value='71616'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.swt.win32.source' version='1.1.0.v20201119-1132'>
+      <properties size='1'>
+        <property name='download.size' value='9609'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.egf.portfolio.genchain.cdo.model.source' version='1.6.3.202110291409'>
       <properties size='1'>
         <property name='download.size' value='21667'/>
@@ -3147,11 +3152,6 @@
         <property name='download.size' value='3614528'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.swt.gtk.linux.x86_64.source' version='3.116.100.v20210602-2209'>
-      <properties size='1'>
-        <property name='download.size' value='1908536'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtend.core.source' version='2.25.0.v20210301-1408'>
       <properties size='1'>
         <property name='download.size' value='1421613'/>
@@ -3386,6 +3386,11 @@
         <property name='download.size' value='48947'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna.source' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='167067'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.exporter' version='2.10.0.v20190321-1530'>
       <properties size='1'>
         <property name='download.size' value='63556'/>
@@ -3539,11 +3544,6 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.re.ui.quickfix.source' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='16456'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.linux.x86_64.source' version='1.1.500.v20210125-1508'>
-      <properties size='1'>
-        <property name='download.size' value='7584'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.source' version='1.2.500.v20210521-1226'>
@@ -3893,11 +3893,6 @@
         <property name='download.size' value='258036'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.linux.source' version='1.0.100.v20210419-1942'>
-      <properties size='1'>
-        <property name='download.size' value='19593'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.report.model.source' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='28999'/>
@@ -4080,6 +4075,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.viewpoint.dsl.as.conf.fc.source' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='9436'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='1466643'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.ui.properties.richtext' version='6.1.0.202303291413'>
@@ -5327,11 +5327,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.sirius.editor.sequence' version='7.1.0.202303020853'>
       <properties size='1'>
         <property name='download.size' value='250954'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.swt.gtk' version='1.1.100.v20210108-1832'>
-      <properties size='1'>
-        <property name='download.size' value='10994'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.viewpoint.ui.source' version='6.1.0.202303220900'>
@@ -6624,6 +6619,14 @@
         <property name='download.size' value='15098'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.win32.win32.x86_64' version='1.2.200.v20210429-1609'>
+      <properties size='1'>
+        <property name='download.size' value='84284'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.composer.examples.recursive.ecore.gen.generator.source' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='17770'/>
@@ -7342,6 +7345,11 @@
         <property name='download.size' value='32097'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.win32.x86_64.source' version='1.1.500.v20190925-1337'>
+      <properties size='1'>
+        <property name='download.size' value='8686'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.sirius.ext.emf.ui' version='7.1.0.202303020853'>
       <properties size='1'>
         <property name='download.size' value='13931'/>
@@ -8057,6 +8065,11 @@
         <property name='download.size' value='13424'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.win32' version='3.4.400.v20200414-1247'>
+      <properties size='1'>
+        <property name='download.size' value='22808'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gmf.runtime.diagram.ui.properties' version='1.8.1.202211041032'>
       <properties size='1'>
         <property name='download.size' value='225356'/>
@@ -8583,11 +8596,6 @@
         <property name='download.size' value='11081'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.linux.x86_64' version='1.2.500.v20210510-1619'>
-      <properties size='1'>
-        <property name='download.size' value='7983'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.egf.model.ui.feature' version='1.6.3.202110291409'>
       <properties size='1'>
         <property name='download.size' value='32745'/>
@@ -8629,6 +8637,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.model.common.commands.contrib.viewpoints.source' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='14772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources.win32.x86_64' version='3.5.400.v20190812-0909'>
+      <properties size='1'>
+        <property name='download.size' value='59125'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.eef.components' version='1.5.1.201601141612'>
@@ -8797,6 +8810,11 @@
         <property name='download.size' value='129897'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.win32.win32.x86_64' version='3.116.100.v20210602-2209'>
+      <properties size='1'>
+        <property name='download.size' value='2481009'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.af.coredomain.model' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='24334'/>
@@ -8945,6 +8963,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.common.data.behavior.gen.source' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='38103'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.win32.source' version='1.2.800.v20200127-1343'>
+      <properties size='1'>
+        <property name='download.size' value='23615'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.data.common.ui.quickfix' version='6.1.0.202303291413'>
@@ -9502,11 +9525,6 @@
         <property name='download.size' value='65773'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.linux.x86_64' version='1.2.300.v20180828-0158'>
-      <properties size='1'>
-        <property name='download.size' value='11589'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mapping.ecore.source' version='2.8.0.v20180706-1146'>
       <properties size='1'>
         <property name='download.size' value='7542'/>
@@ -9563,6 +9581,11 @@
         <property name='download.size' value='33933'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.win32.x86_64.source' version='1.1.200.v20190812-0919'>
+      <properties size='1'>
+        <property name='download.size' value='16964'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer' version='5.1.102.v20210409-2301'>
       <properties size='1'>
         <property name='download.size' value='53781'/>
@@ -9594,11 +9617,6 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.model.obfuscator' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='38572'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.swt.gtk.source' version='1.1.100.v20210108-1832'>
-      <properties size='1'>
-        <property name='download.size' value='9712'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.egf.core.producer' version='1.6.3.202110291409'>
@@ -10621,14 +10639,6 @@
         <property name='download.size' value='14120'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.gtk.linux.x86_64' version='1.2.200.v20210429-1609'>
-      <properties size='1'>
-        <property name='download.size' value='86004'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.composer.componentsample.importer.source' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='12120'/>
@@ -10671,6 +10681,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna.platform' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='1195544'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.composer.examples.basic.ecore.gen.strategy.vowel' version='6.1.0.202303220900'>
       <properties size='1'>
@@ -12653,6 +12668,11 @@
         <property name='download.size' value='783878'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.win32' version='1.2.800.v20200127-1343'>
+      <properties size='1'>
+        <property name='download.size' value='44817'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.egf.common.ui.feature.source' version='1.6.3.202110291409'>
       <properties size='1'>
         <property name='download.size' value='19041'/>
@@ -12872,6 +12892,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.jna.platform.source' version='4.5.1.v20190425-1842'>
+      <properties size='1'>
+        <property name='download.size' value='934491'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.data.migration' version='6.1.0.202303291413'>
       <properties size='1'>
@@ -13450,6 +13475,11 @@
         <property name='download.size' value='27825'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.win32.x86_64' version='1.4.200.v20190812-0909'>
+      <properties size='1'>
+        <property name='download.size' value='38372'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.egf.task.source' version='1.6.3.202110291409'>
       <properties size='1'>
         <property name='download.size' value='12360'/>
@@ -13468,6 +13498,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.viewpoint.dsl.as.diagram.expression.model.edit' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='36030'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient45.win32' version='1.0.400.v20210410-0052'>
+      <properties size='1'>
+        <property name='download.size' value='23337'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.core.ui.semantic.browser.source' version='6.1.0.202303291413'>
@@ -13700,6 +13735,11 @@
         <property name='download.size' value='79473'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.win32.source' version='3.4.400.v20200414-1247'>
+      <properties size='1'>
+        <property name='download.size' value='15971'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.common.platform.eclipse.tools.report.console' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='19275'/>
@@ -13713,6 +13753,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.af.dsl.as.desc.model.edit' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='35227'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.swt.win32' version='1.1.0.v20201119-1132'>
+      <properties size='1'>
+        <property name='download.size' value='10500'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.objectweb.asm' version='9.1.0.v20210209-1849'>
@@ -13897,6 +13942,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.win32.x86_64' version='1.1.200.v20190812-0919'>
+      <properties size='1'>
+        <property name='download.size' value='41645'/>
+      </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.polarsys.capella.studio.releng.eclipse.feature' version='6.1.0.202303291548'>
       <properties size='1'>
@@ -14386,6 +14436,11 @@
         <property name='download.size' value='24791'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.win32.x86_64' version='1.1.500.v20190925-1337'>
+      <properties size='1'>
+        <property name='download.size' value='35546'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.egf.common.source' version='1.6.3.202110291409'>
       <properties size='1'>
         <property name='download.size' value='57167'/>
@@ -14422,6 +14477,11 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.examples.generic.wizard' version='6.1.0.202303220900'>
       <properties size='1'>
         <property name='download.size' value='18975'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient45.win32.source' version='1.0.400.v20210410-0052'>
+      <properties size='1'>
+        <property name='download.size' value='20382'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.kitalpha.ad.services' version='6.1.0.202303220900'>
@@ -14491,11 +14551,6 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ui.testing' version='2.25.0.v20210301-0928'>
       <properties size='1'>
         <property name='download.size' value='129746'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.swt.gtk.linux.x86_64' version='3.116.100.v20210602-2209'>
-      <properties size='1'>
-        <property name='download.size' value='2099446'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.polarsys.kitalpha.representation.feature.source' version='6.1.0.202303220900'>
@@ -15202,6 +15257,11 @@
         <property name='download.size' value='106494'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpclient.win' version='4.5.13.v20210128-2225'>
+      <properties size='1'>
+        <property name='download.size' value='30778'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.extension.genchain.model.edit.source' version='6.1.0.202303291548'>
       <properties size='1'>
         <property name='download.size' value='20618'/>
@@ -15234,14 +15294,6 @@
       <properties size='1'>
         <property name='download.size' value='22548'/>
       </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.linux' version='1.0.100.v20210419-1942'>
-      <properties size='1'>
-        <property name='download.size' value='23924'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.batik.i18n.source' version='1.16.0.v20221027-0840'>
       <properties size='1'>
@@ -15509,14 +15561,6 @@
         <property name='download.size' value='1116847'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.linux.x86_64' version='1.1.500.v20210125-1508'>
-      <properties size='1'>
-        <property name='download.size' value='8119'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gmf.runtime.common.ui.printing.win32' version='1.7.0.202211041032'>
       <properties size='1'>
         <property name='download.size' value='774251'/>
@@ -15608,11 +15652,6 @@
     <artifact classifier='osgi.bundle' id='org.polarsys.capella.rcp.source' version='6.1.0.202303291413'>
       <properties size='1'>
         <property name='download.size' value='8700'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.linux' version='1.0.0.v20210424-0724'>
-      <properties size='1'>
-        <property name='download.size' value='14572'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.http.apache' version='5.12.0.202106070339-r'>

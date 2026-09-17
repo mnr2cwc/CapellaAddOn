@@ -12,7 +12,9 @@ com.ibm.icu,67.1.0.v20200706-1749,plugins/com.ibm.icu_67.1.0.v20200706-1749.jar,
 com.jcraft.jsch,0.1.55.v20190404-1902,plugins/com.jcraft.jsch_0.1.55.v20190404-1902.jar,4,false
 com.sun.el,2.2.0.v201303151357,plugins/com.sun.el_2.2.0.v201303151357.jar,4,false
 com.sun.jna,5.8.0.v20210503-0343,plugins/com.sun.jna_5.8.0.v20210503-0343.jar,4,false
+com.sun.jna,4.5.1.v20190425-1842,plugins/com.sun.jna_4.5.1.v20190425-1842.jar,4,false
 com.sun.jna.platform,5.8.0.v20210406-1004,plugins/com.sun.jna.platform_5.8.0.v20210406-1004.jar,4,false
+com.sun.jna.platform,4.5.1.v20190425-1842,plugins/com.sun.jna.platform_4.5.1.v20190425-1842.jar,4,false
 com.sun.xml.bind,2.2.0.v20201118-1845,plugins/com.sun.xml.bind_2.2.0.v20201118-1845.jar,4,false
 io.github.classgraph,4.8.35.v20190528-1517,plugins/io.github.classgraph_4.8.35.v20190528-1517.jar,4,false
 jakarta.servlet-api,4.0.0,plugins/jakarta.servlet-api_4.0.0.jar,4,false
@@ -66,6 +68,7 @@ org.apache.felix.gogo.runtime,1.1.4.v20210111-1007,plugins/org.apache.felix.gogo
 org.apache.felix.gogo.shell,1.1.4.v20210111-1007,plugins/org.apache.felix.gogo.shell_1.1.4.v20210111-1007.jar,4,false
 org.apache.felix.scr,2.1.24.v20200924-1939,plugins/org.apache.felix.scr_2.1.24.v20200924-1939.jar,2,true
 org.apache.httpcomponents.httpclient,4.5.13.v20210128-2225,plugins/org.apache.httpcomponents.httpclient_4.5.13.v20210128-2225.jar,4,false
+org.apache.httpcomponents.httpclient.win,4.5.13.v20210128-2225,plugins/org.apache.httpcomponents.httpclient.win_4.5.13.v20210128-2225.jar,4,false
 org.apache.httpcomponents.httpcore,4.4.14.v20210128-2225,plugins/org.apache.httpcomponents.httpcore_4.4.14.v20210128-2225.jar,4,false
 org.apache.jasper.glassfish,2.2.2.v201501141630,plugins/org.apache.jasper.glassfish_2.2.2.v201501141630.jar,4,false
 org.apache.log4j,1.2.15.v201012070815,plugins/org.apache.log4j_1.2.15.v201012070815.jar,4,false
@@ -112,6 +115,7 @@ org.eclipse.ant.ui,3.8.0.v20210415-1314,plugins/org.eclipse.ant.ui_3.8.0.v202104
 org.eclipse.collections,10.4.0.v20200820-2049,plugins/org.eclipse.collections_10.4.0.v20200820-2049.jar,4,false
 org.eclipse.compare,3.8.0.v20210415-0713,plugins/org.eclipse.compare_3.8.0.v20210415-0713.jar,4,false
 org.eclipse.compare.core,3.6.1000.v20201020-1107,plugins/org.eclipse.compare.core_3.6.1000.v20201020-1107.jar,4,false
+org.eclipse.compare.win32,1.2.800.v20200127-1343,plugins/org.eclipse.compare.win32_1.2.800.v20200127-1343.jar,4,false
 org.eclipse.core.commands,3.10.0.v20210401-0744,plugins/org.eclipse.core.commands_3.10.0.v20210401-0744.jar,4,false
 org.eclipse.core.contenttype,3.7.1000.v20210409-1722,plugins/org.eclipse.core.contenttype_3.7.1000.v20210409-1722.jar,4,false
 org.eclipse.core.databinding,1.10.100.v20200926-1123,plugins/org.eclipse.core.databinding_1.10.100.v20200926-1123.jar,4,false
@@ -122,12 +126,12 @@ org.eclipse.core.expressions,3.7.100.v20210203-1000,plugins/org.eclipse.core.exp
 org.eclipse.core.externaltools,1.2.0.v20210510-1841,plugins/org.eclipse.core.externaltools_1.2.0.v20210510-1841.jar,4,false
 org.eclipse.core.filebuffers,3.7.0.v20210512-1543,plugins/org.eclipse.core.filebuffers_3.7.0.v20210512-1543.jar,4,false
 org.eclipse.core.filesystem,1.9.0.v20210419-1155,plugins/org.eclipse.core.filesystem_1.9.0.v20210419-1155.jar,4,false
-org.eclipse.core.filesystem.linux.x86_64,1.2.300.v20180828-0158,plugins/org.eclipse.core.filesystem.linux.x86_64_1.2.300.v20180828-0158.jar,4,false
+org.eclipse.core.filesystem.win32.x86_64,1.4.200.v20190812-0909,plugins/org.eclipse.core.filesystem.win32.x86_64_1.4.200.v20190812-0909.jar,4,false
 org.eclipse.core.jobs,3.11.0.v20210420-1453,plugins/org.eclipse.core.jobs_3.11.0.v20210420-1453.jar,4,false
 org.eclipse.core.net,1.3.1100.v20210424-0724,plugins/org.eclipse.core.net_1.3.1100.v20210424-0724.jar,4,false
-org.eclipse.core.net.linux,1.0.0.v20210424-0724,plugins/org.eclipse.core.net.linux_1.0.0.v20210424-0724.jar,4,false
-org.eclipse.core.net.linux.x86_64,1.2.500.v20210510-1619,plugins/org.eclipse.core.net.linux.x86_64_1.2.500.v20210510-1619.jar,4,false
+org.eclipse.core.net.win32.x86_64,1.1.500.v20190925-1337,plugins/org.eclipse.core.net.win32.x86_64_1.1.500.v20190925-1337.jar,4,false
 org.eclipse.core.resources,3.15.0.v20210521-0722,plugins/org.eclipse.core.resources_3.15.0.v20210521-0722.jar,4,false
+org.eclipse.core.resources.win32.x86_64,3.5.400.v20190812-0909,plugins/org.eclipse.core.resources.win32.x86_64_3.5.400.v20190812-0909.jar,4,false
 org.eclipse.core.runtime,3.22.0.v20210506-1025,plugins/org.eclipse.core.runtime_3.22.0.v20210506-1025.jar,4,true
 org.eclipse.core.variables,3.5.0.v20210510-1945,plugins/org.eclipse.core.variables_3.5.0.v20210510-1945.jar,4,false
 org.eclipse.cvs,1.4.1800.v20210611-1600,plugins/org.eclipse.cvs_1.4.1800.v20210611-1600.jar,4,false
@@ -152,7 +156,7 @@ org.eclipse.e4.ui.dialogs,1.2.100.v20201109-2317,plugins/org.eclipse.e4.ui.dialo
 org.eclipse.e4.ui.ide,3.15.200.v20210108-1832,plugins/org.eclipse.e4.ui.ide_3.15.200.v20210108-1832.jar,4,false
 org.eclipse.e4.ui.model.workbench,2.1.1000.v20210111-0958,plugins/org.eclipse.e4.ui.model.workbench_2.1.1000.v20210111-0958.jar,4,false
 org.eclipse.e4.ui.services,1.5.0.v20210115-1333,plugins/org.eclipse.e4.ui.services_1.5.0.v20210115-1333.jar,4,false
-org.eclipse.e4.ui.swt.gtk,1.1.100.v20210108-1832,plugins/org.eclipse.e4.ui.swt.gtk_1.1.100.v20210108-1832.jar,4,false
+org.eclipse.e4.ui.swt.win32,1.1.0.v20201119-1132,plugins/org.eclipse.e4.ui.swt.win32_1.1.0.v20201119-1132.jar,4,false
 org.eclipse.e4.ui.widgets,1.2.900.v20210412-0842,plugins/org.eclipse.e4.ui.widgets_1.2.900.v20210412-0842.jar,4,false
 org.eclipse.e4.ui.workbench,1.13.0.v20210521-0741,plugins/org.eclipse.e4.ui.workbench_1.13.0.v20210521-0741.jar,4,false
 org.eclipse.e4.ui.workbench.addons.swt,1.4.200.v20210321-1910,plugins/org.eclipse.e4.ui.workbench.addons.swt_1.4.200.v20210321-1910.jar,4,false
@@ -164,6 +168,7 @@ org.eclipse.ecf.filetransfer,5.1.102.v20210409-2301,plugins/org.eclipse.ecf.file
 org.eclipse.ecf.identity,3.9.402.v20210409-2301,plugins/org.eclipse.ecf.identity_3.9.402.v20210409-2301.jar,4,false
 org.eclipse.ecf.provider.filetransfer,3.2.601.v20201025-0700,plugins/org.eclipse.ecf.provider.filetransfer_3.2.601.v20201025-0700.jar,4,false
 org.eclipse.ecf.provider.filetransfer.httpclient45,1.0.401.v20210512-0614,plugins/org.eclipse.ecf.provider.filetransfer.httpclient45_1.0.401.v20210512-0614.jar,4,false
+org.eclipse.ecf.provider.filetransfer.httpclient45.win32,1.0.400.v20210410-0052,plugins/org.eclipse.ecf.provider.filetransfer.httpclient45.win32_1.0.400.v20210410-0052.jar,4,false
 org.eclipse.ecf.provider.filetransfer.ssl,1.0.201.v20210409-2301,plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.201.v20210409-2301.jar,4,false
 org.eclipse.ecf.ssl,1.2.401.v20210409-2301,plugins/org.eclipse.ecf.ssl_1.2.401.v20210409-2301.jar,4,false
 org.eclipse.eef,2.1.6.202210191223,plugins/org.eclipse.eef_2.1.6.202210191223.jar,4,false
@@ -386,7 +391,7 @@ org.eclipse.equinox.http.servlet,1.7.100.v20210311-1631,plugins/org.eclipse.equi
 org.eclipse.equinox.jsp.jasper,1.1.500.v20200422-1833,plugins/org.eclipse.equinox.jsp.jasper_1.1.500.v20200422-1833.jar,4,false
 org.eclipse.equinox.jsp.jasper.registry,1.1.400.v20200422-1833,plugins/org.eclipse.equinox.jsp.jasper.registry_1.1.400.v20200422-1833.jar,4,false
 org.eclipse.equinox.launcher,1.6.200.v20210416-2027,plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar,4,false
-org.eclipse.equinox.launcher.gtk.linux.x86_64,1.2.200.v20210429-1609,plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.2.200.v20210429-1609/,4,false
+org.eclipse.equinox.launcher.win32.win32.x86_64,1.2.200.v20210429-1609,plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.200.v20210429-1609/,4,false
 org.eclipse.equinox.p2.artifact.repository,1.4.100.v20210418-1636,plugins/org.eclipse.equinox.p2.artifact.repository_1.4.100.v20210418-1636.jar,4,false
 org.eclipse.equinox.p2.console,1.2.0.v20210315-2042,plugins/org.eclipse.equinox.p2.console_1.2.0.v20210315-2042.jar,4,false
 org.eclipse.equinox.p2.core,2.7.0.v20210315-2042,plugins/org.eclipse.equinox.p2.core_2.7.0.v20210315-2042.jar,4,false
@@ -417,9 +422,8 @@ org.eclipse.equinox.p2.updatesite,1.2.0.v20210322-0909,plugins/org.eclipse.equin
 org.eclipse.equinox.preferences,3.8.200.v20210212-1143,plugins/org.eclipse.equinox.preferences_3.8.200.v20210212-1143.jar,4,false
 org.eclipse.equinox.registry,3.10.200.v20210503-1606,plugins/org.eclipse.equinox.registry_3.10.200.v20210503-1606.jar,4,false
 org.eclipse.equinox.security,1.3.600.v20210126-1005,plugins/org.eclipse.equinox.security_1.3.600.v20210126-1005.jar,4,false
-org.eclipse.equinox.security.linux,1.0.100.v20210419-1942,plugins/org.eclipse.equinox.security.linux_1.0.100.v20210419-1942/,4,false
-org.eclipse.equinox.security.linux.x86_64,1.1.500.v20210125-1508,plugins/org.eclipse.equinox.security.linux.x86_64_1.1.500.v20210125-1508/,4,false
 org.eclipse.equinox.security.ui,1.3.0.v20210121-0947,plugins/org.eclipse.equinox.security.ui_1.3.0.v20210121-0947.jar,4,false
+org.eclipse.equinox.security.win32.x86_64,1.1.200.v20190812-0919,plugins/org.eclipse.equinox.security.win32.x86_64_1.1.200.v20190812-0919.jar,4,false
 org.eclipse.equinox.simpleconfigurator,1.4.0.v20210315-2228,plugins/org.eclipse.equinox.simpleconfigurator_1.4.0.v20210315-2228.jar,1,true
 org.eclipse.equinox.simpleconfigurator.manipulator,2.2.0.v20210315-2228,plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.2.0.v20210315-2228.jar,4,false
 org.eclipse.gef,3.13.0.202211301913,plugins/org.eclipse.gef_3.13.0.202211301913.jar,4,false
@@ -649,7 +653,7 @@ org.eclipse.sirius.ui.ext,7.1.0.202303020853,plugins/org.eclipse.sirius.ui.ext_7
 org.eclipse.sirius.ui.properties,7.1.0.202303020853,plugins/org.eclipse.sirius.ui.properties_7.1.0.202303020853.jar,4,false
 org.eclipse.sirius.ui.properties.ext.widgets.reference,7.1.0.202303020853,plugins/org.eclipse.sirius.ui.properties.ext.widgets.reference_7.1.0.202303020853.jar,4,false
 org.eclipse.swt,3.116.100.v20210602-2209,plugins/org.eclipse.swt_3.116.100.v20210602-2209.jar,4,false
-org.eclipse.swt.gtk.linux.x86_64,3.116.100.v20210602-2209,plugins/org.eclipse.swt.gtk.linux.x86_64_3.116.100.v20210602-2209.jar,4,false
+org.eclipse.swt.win32.win32.x86_64,3.116.100.v20210602-2209,plugins/org.eclipse.swt.win32.win32.x86_64_3.116.100.v20210602-2209.jar,4,false
 org.eclipse.team.core,3.9.0.v20210510-1748,plugins/org.eclipse.team.core_3.9.0.v20210510-1748.jar,4,false
 org.eclipse.team.cvs.core,3.5.0.v20210511-0556,plugins/org.eclipse.team.cvs.core_3.5.0.v20210511-0556.jar,4,false
 org.eclipse.team.cvs.ssh2,3.4.0.v20210426-0837,plugins/org.eclipse.team.cvs.ssh2_3.4.0.v20210426-0837.jar,4,false
@@ -681,6 +685,7 @@ org.eclipse.ui.trace,1.2.0.v20210110-1242,plugins/org.eclipse.ui.trace_1.2.0.v20
 org.eclipse.ui.views,3.11.0.v20210111-1351,plugins/org.eclipse.ui.views_3.11.0.v20210111-1351.jar,4,false
 org.eclipse.ui.views.log,1.2.1500.v20210315-1034,plugins/org.eclipse.ui.views.log_1.2.1500.v20210315-1034.jar,4,false
 org.eclipse.ui.views.properties.tabbed,3.9.100.v20201223-1348,plugins/org.eclipse.ui.views.properties.tabbed_3.9.100.v20201223-1348.jar,4,false
+org.eclipse.ui.win32,3.4.400.v20200414-1247,plugins/org.eclipse.ui.win32_3.4.400.v20200414-1247.jar,4,false
 org.eclipse.ui.workbench,3.122.200.v20210506-1640,plugins/org.eclipse.ui.workbench_3.122.200.v20210506-1640.jar,4,false
 org.eclipse.ui.workbench.texteditor,3.16.100.v20210512-1009,plugins/org.eclipse.ui.workbench.texteditor_3.16.100.v20210512-1009.jar,4,false
 org.eclipse.uml2,5.5.2.v20210228-1829,plugins/org.eclipse.uml2_5.5.2.v20210228-1829.jar,4,false
